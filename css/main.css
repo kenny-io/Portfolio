@@ -1,0 +1,224 @@
+/**********************************
+GENERAL STYLES
+**********************************/
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+body {
+    font-family: 'Slabo 27px", sans-serif;'
+     
+}
+#wrapper {
+
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%; 
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    margin: 0 0 1em 0;
+}
+nav {
+    background: #599a68;
+}
+
+/****************************
+HEADINGS
+****************************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+#logo {
+
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Slabo 27px", sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+    padding-left: 5px;
+}
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: bold; /* unbolds the heading*/
+    padding-left: 15px;
+    color: black;
+}
+/****************************
+NAVIGATION
+****************************/
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px; /*** 0 margin on top/bottom and 10px marging, left and rrright
+                    using two values for margin means that the first value represents
+                    top and bottom while the the 2nd represents left and right.
+                    ***/
+
+}
+nav li {
+    display: inline;
+}
+nav a {
+    font-weight: 800;
+    padding: 0px;
+}
+/************************
+SITE COLOR 
+************************/
+
+/************************
+style body
+************************/
+body {
+    background-color: #fff;
+    color: gray;
+}
+body {
+    font-family: 'Merriweather', serif;
+}
+/**************
+green header
+**************/
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+
+}
+/****************** 
+FOOTER
+******************/
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    clear: both;
+    padding: 50px;
+    color: #ccc;
+}
+
+footer a {
+align-content: center;
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+/****
+Gallery
+*****/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* this removes those visible points numbering the images*/
+}
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+#gallery li a p {
+
+    margin: 0;
+    font-size: 0.75em;
+    padding: 5%;
+    color: #6ab47b
+}
+/****************************
+PAGE AbOUT
+****************************/
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100% 100%;
+}
+
+
+/****************************
+PAGE CONTACT
+****************************/
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+.contact-info a{
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+.contact-info li.phone a {
+    background-image: url('../img/phone.png')
+}
+.contact-info li.mail a {
+    background-image: url('../img/mail.png')
+}
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png')
+}
+
+
+/****
+nav background on mobile
+*****/
+
+#nav {
+    background: #6ab47b;
+    
+} 
+img {
+    max-width: 100%;
+}
+/*****
+logo text
+*****/
+h1, h2 {
+    color: #fff;
+}
+
+/* working on the anchor (links) element */
+a {
+    color: #6ab47b;
+}
+p {
+    text-align: center;
+}
+
+/****
+nav visited colors
+*****/
+nav a, nav a:visited {
+    color: #fff;
+}
+/*****
+nav selected colors
+******/
+nav a.selected, nav a:hover {
+color: #32673f;
+}
